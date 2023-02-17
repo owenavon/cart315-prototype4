@@ -1,1 +1,2 @@
-# cart315-prototype4
+# CART315 Prototype 4
+Prototype 4 for CART 315: Digital Game Prototyping
