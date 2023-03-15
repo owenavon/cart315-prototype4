@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerLife : MonoBehaviour
+public class PlayerLifeLastLevel : MonoBehaviour
 {
     bool dead = false; 
 
@@ -33,6 +33,6 @@ public class PlayerLife : MonoBehaviour
         if (Random.Range(0, 2) == 0)
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         else
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
